@@ -50,7 +50,6 @@
 		5B92B7681CCCD7F6002C1C3B /* UIScrollView+KeepLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB485AB1A14D3D800AB82BE /* UIScrollView+KeepLayout.m */; };
 		5B92B7771CCCD954002C1C3B /* KeepLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B92B7501CCCD5B0002C1C3B /* KeepLayout.framework */; };
 		5B92B7781CCCD954002C1C3B /* KeepLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B92B7501CCCD5B0002C1C3B /* KeepLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B92B77D1CCD01D0002C1C3B /* KeepLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92B77C1CCD01D0002C1C3B /* KeepLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -503,7 +502,6 @@
 				5B92B7681CCCD7F6002C1C3B /* UIScrollView+KeepLayout.m in Sources */,
 				5B92B7601CCCD7DF002C1C3B /* KeepArray.m in Sources */,
 				5B92B75E1CCCD7D2002C1C3B /* KeepView.m in Sources */,
-				5B92B77D1CCD01D0002C1C3B /* KeepLayout.swift in Sources */,
 				5B92B7621CCCD7E6002C1C3B /* KeepAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -767,7 +765,6 @@
 		5B3C509816B5304600D00BF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Example/Prefix.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
@@ -785,7 +782,6 @@
 		5B3C509916B5304600D00BF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Example/Prefix.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
